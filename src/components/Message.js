@@ -5,7 +5,7 @@ const MessageContainer = styled.div`
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 5px;
-  background-color: ${props => (props.isUser ? '#dcf8c6' : '#fff')};
+  background-color: ${props => (props.isUser ? '#dcf8c6' : props.theme.background)}
   align-self: ${props => (props.isUser ? 'flex-end' : 'flex-start')};
 `;
 

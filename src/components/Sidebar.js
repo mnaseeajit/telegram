@@ -25,7 +25,7 @@ const ChatsContainer = styled.div`
 
 
 const ChatList = styled.ul`
-  padding-top : 30px;
+  padding-top : 15px;
   list-style: none;
   padding-left : 0px;
   margin: 0;

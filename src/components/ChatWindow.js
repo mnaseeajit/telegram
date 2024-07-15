@@ -4,7 +4,7 @@ import Message from './Message';
 
 const ChatWindowContainer = styled.div`
   height: 100vh;
-  background-color: #f9f9f9;
+  background-color: ${props => (props.theme.background)};
   display: flex;
   flex-direction: column;
   overflow-y: auto;
@@ -23,7 +23,7 @@ const MessageList = styled.div`
 const InputContainer = styled.div`
   padding: 10px;
   border-top: 1px solid #ccc;
-  background-color: #fff;
+  background-color: ${props => (props.theme.background)};
 `;
 
 const Input = styled.input`
@@ -32,7 +32,7 @@ const Input = styled.input`
   border: none;
   border-radius: 5px;
   outline: none;
-  background-color: #f0f0f0;
+  background-color: ${props => (props.theme.background)};
 `;
 
 const ChatWindow = ({ messages }) => (

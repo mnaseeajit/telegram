@@ -41,7 +41,7 @@ const SidebarButton = styled.button`
 
 const MainContent = styled.div`
   flex-grow: 1;
-  margin-left: ${props => (props.sidebarOpen ? '50px' : '0')};
+  margin-left: ${props => (props.sidebarOpen ? '10px' : '0')};
   transition: margin-left 0.3s ease;
   display: flex;
   @media (max-width : 768px){

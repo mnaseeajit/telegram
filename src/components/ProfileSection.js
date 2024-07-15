@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const ProfileSectionContainer = styled.div`
  
   height: 100vh;
-  background-color: #fff;
+  background-color: ${props => (props.theme.background)};
   border-left: 1px solid #ccc;
   overflow-y: auto;
   display: flex;
